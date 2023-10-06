@@ -53,7 +53,6 @@ for i in range(100,200):
 
 
 
-print(elephant)
 
 tf.reset_default_graph()
 

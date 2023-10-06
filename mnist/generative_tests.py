@@ -14,7 +14,7 @@ import cv2
 
 import generative_model as test_class
 import mnist_ae_test as ae
-import mnist_gan_test as gan
+import mnist_gan_test_class as gan
 import mnist_vae_test as vae
 
 test_images=np.load('../mnist_test_images.npy')
