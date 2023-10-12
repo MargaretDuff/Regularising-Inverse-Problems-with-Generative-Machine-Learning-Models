@@ -3,9 +3,21 @@ Code for the paper "Regularising Inverse Problems with Generative Machine Learni
 
 The three folders correspond to the three datasets used in the paper. 
 
+
+### Requirements 
+The code was written using tensorflow v1, you can get round this by installing a version of tensorflow v2 and using the lines
+
+`import tensorflow.compat.v1 as tf`
+
+`tf.compat.v1.disable_v2_behavior()`
+
+The forward models for the inverse problem and the optimisation are written using the [Operator Discretisation Library](https://odlgroup.github.io/odl/). 
+
 ## Shapes
 
 ## MNIST 
+
+The MNISt data can be o
 
 ## Knees
 
