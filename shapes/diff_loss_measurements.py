@@ -13,9 +13,9 @@ import numpy as np
 import tensorflow as tf
 import skimage
 import skimage.measure
-import vae_2d_shapes_class as vae
-import ae_2d_shapes_class as ae
-import wgan_2d_shapes_class as gan
+import vae_2d_shapes_class_odl as vae
+import ae_2d_shapes_class_odl as ae
+import gan_2d_shapes_class_odl as gan
 
 #%%
 test_images=np.load('../../datasets/2d_shapes/2d_shapes_test_images_none.npy')

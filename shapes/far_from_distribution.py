@@ -1,9 +1,9 @@
 
 
 
-import vae_2d_shapes_class as vae
-import ae_2d_shapes_class as ae
-import wgan_2d_shapes_class as gan
+import vae_2d_shapes_class_odl as vae
+import ae_2d_shapes_class_odl as ae
+import gan_2d_shapes_class_odl as gan
 import numpy as np
 #import matplotlib.pyplot as plt
 
